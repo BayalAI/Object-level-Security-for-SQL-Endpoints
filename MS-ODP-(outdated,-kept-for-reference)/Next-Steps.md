@@ -1,0 +1,46 @@
+- Infrastructure
+  - Move Workspace to Production (everything is on dev capacity) [Christian] https://dev.azure.com/atos-cdo/DAT-Transform/_workitems/edit/5902/
+  - Production KeyVault (not deployed yet) (script not shared with customer) [Christian] https://dev.azure.com/atos-cdo/DAT-Transform/_workitems/edit/5417
+  - Network diagram approvel from Dagwin [Christian]
+  - Cloud Defender for Apps integration [Christian]
+  - Domain have not been created yet https://dev.azure.com/atos-cdo/DAT-Transform/_workitems/edit/4770
+  - APPC UC Workspace only in dev https://dev.azure.com/atos-cdo/DAT-Transform/_workitems/edit/5878
+  - Finance Workspace only in dev https://dev.azure.com/atos-cdo/DAT-Transform/_workitems/edit/5879
+  - Ariba Workspace only in dev   https://dev.azure.com/atos-cdo/DAT-Transform/_workitems/edit/5880
+  - APPC UC Workspace only in dev deployment pipeline https://dev.azure.com/atos-cdo/DAT-Transform/_workitems/edit/5882
+  - Finance Workspace only in dev deployment pipeline https://dev.azure.com/atos-cdo/DAT-Transform/_workitems/edit/5881
+  - Ariba Workspace only in dev deployment pipeline   https://dev.azure.com/atos-cdo/DAT-Transform/_workitems/edit/5883
+  - BUP Workspace only in dev deployment pipeline   https://dev.azure.com/atos-cdo/DAT-Transform/_workitems/edit/5884
+  - Diarie Workspace only in dev deployment pipeline   https://dev.azure.com/atos-cdo/DAT-Transform/_workitems/edit/5885
+  - Iris Workspace only in dev deployment pipeline   https://dev.azure.com/atos-cdo/DAT-Transform/_workitems/edit/5886
+  - Access Management Concept https://dev.azure.com/atos-cdo/DAT-Transform/_workitems/edit/4530
+  - Network clearance on PowerBI Gateway to ODLZ [Christian] https://dev.azure.com/atos-cdo/DAT-Transform/_workitems/edit/5903
+  - Central Fabric Connection still in personal use (from someone) https://dev.azure.com/atos-cdo/DAT-Transform/_workitems/edit/5911
+
+- Data Processing
+  - Parameters for Notebooks pending https://dev.azure.com/atos-cdo/DAT-Transform/_workitems/edit/5912
+  - No delta logic for finance & appc layer (always full load) https://dev.azure.com/atos-cdo/DAT-Transform/_workitems/edit/5887
+https://dev.azure.com/atos-cdo/DAT-Transform/_workitems/edit/5888
+  - **?** No table optimization implemented besides finance & appc - already implemented
+  - No RLS/OLS implemted yet (no requirements until today) 
+  - Concept / Setup Meta Data Driven Architecture (Sql DAtabases now in Fabric available) https://dev.azure.com/atos-cdo/DAT-Transform/_workitems/edit/5918
+  - Data Quality not implmented yet (not started yet) 
+  - Shared Utilities-Notebook (instead of per workspace)/PythonPackage Environment [Christian] https://dev.azure.com/atos-cdo/DAT-Transform/_workitems/edit/5905
+  - Unified Utilities again [Christian] https://dev.azure.com/atos-cdo/DAT-Transform/_workitems/edit/5906
+  - Remaining APPC KPIS (done by Andre) 
+  - Joining/union the different Fact tables in Finance Lakehouse (also done by Andre, it's needed for KPI calculation)
+  - Make Calculations in APPC Data Modell & ML Extract dynamic (currently columnnames are somehwhat hardcoded) https://dev.azure.com/atos-cdo/DAT-Transform/_workitems/edit/5919
+  - ML Extract: Adapt calculations for more advanced (%, STD, ...) for when other KPIs are ready (currently only 7 kpis are available) [Pascal]
+  - Adapt APPC report to APPC UC Lakehouse [Christian]
+  - Implement APPC UC RLS/OLS
+  - Data Quality Report should be implmented based on GreaterExpectations Framework [Sambhu]
+  - BUP data integration via API [Minal]
+  - Deploy demo scripts to demo-workspace https://dev.azure.com/atos-cdo/DAT-Transform/_workitems/edit/5917
+ 
+- CICD 
+  - Concept / Setup Parameters in built-in-deployment pipelines [Christian] https://dev.azure.com/atos-cdo/DAT-Transform/_workitems/edit/5907
+  - SQL Deployment Project pipeline needs to be adapted for parameters https://dev.azure.com/atos-cdo/DAT-Transform/_workitems/edit/5916
+  - Support multiple stages in deployment pipeline https://dev.azure.com/atos-cdo/DAT-Transform/_workitems/edit/5916
+  - Finalize deployment_config file structure [Christian] https://dev.azure.com/atos-cdo/DAT-Transform/_workitems/edit/5908
+
+- Adapt SAP Treasury to use files instead of table shortcuts [Christian]

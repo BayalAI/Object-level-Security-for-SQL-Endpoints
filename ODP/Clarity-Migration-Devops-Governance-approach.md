@@ -1,0 +1,1 @@
+All pages also available in this Devops Governance pack https://atos365.sharepoint.com/:f:/r/sites/100001266/Shared%20Documents/10%20ODP_project/04_Governance?csf=1&web=1&e=TD8jb9
